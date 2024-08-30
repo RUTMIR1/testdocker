@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/style.css">
+    <link rel="icon" href="/images/icon.png">
+    <title>Formulario</title>
+</head>
+<body>
+    <header>
+      <img class="bandera" src="images/Bandera_de_la_Provincia_de_Jujuy.svg" alt="bandera de jujuy">
+      <b>Poder Judicial <br> de la provincia <br> de jujuy</b>
+      <nav>
+       <div>
+        <a id="inicio" href="index.html"> INICIO</a>
+       </div>
+       <div>
+        <a id="institucional" href="#">INSTITUCIONAL</a>
+       </div>
+       <div>
+        <a id="dependencias" href="#">DEPENDENCIAS </a>
+       </div>
+       <div>
+        <a id="noticias" href="noticias.html">NOTICIAS </a>
+       </div>
+       <div>
+        <a id="informacion" href="#">INFORMACION </a>
+       </div>
+       <div>
+        <a id="formulario" href="formulario.html">FORMULARIO </a>
+       </div>
+       <div>
+        <a id="servicios" href="servicios.html">SERVICIOS </a>
+       </div>
+      </nav>
+    </header>
+   <main>
+    <section class="formulario-section">
+        <div class="declaracion">
+            <Strong>
+                Los datos suministrados en este formulario tiene CARACTER DE
+                DECLARACION JURADA y serian tratado de forma reservada
+            </Strong>
+        </div>
+        <form action="#" class="formulario">
+          <div class="contenido-form">
+            <label for="apellido">Apellido: </label>
+            <input name="sub-name" type="text" id="apellido" required>
+            <br>
+            <br>
+            <label for="nombre">Nombre: </label>
+            <input name="name" type="text" id="nombre" required>
+            <br>
+            <br>
+            <label for="identificador">Dni:</label>
+            <input name="dni" type="text" id="identificador" required>
+            <br>
+            <br>
+            <label for="fecha-nacimiento">Fecha de Nacimiento: </label>
+            <input name="fecha-nac" type="date" id="fecha-nacimiento" required>
+            <br>
+            <br>
+            <label> Sexo: </label>
+            <label>hombre
+            <input type="radio" name="sexo" value="hombre" checked>
+            </label>
+            <label>mujer
+              <input type="radio" name="sexo" value="mujer">
+            </label>
+            <br>
+            <br>
+            <label for="estado-civil">Estado Civil: </label>
+            <select name="estado" id="estado-civil">
+                <option value="hombre">casado</option>
+                <option value="mujer" selected>soltero</option>
+            </select>
+            <br>
+            <br>
+            <label for="cuit">N° de CUIT: </label>
+            <input name="cui" type="text" id="cuit" required>
+            <br>
+            <br>
+            <label for="domicilio">Domicilio Real: </label>
+            <input name="dom" type="text" id="domicilio" required>
+            <br>
+            <br>
+            <label for="telefono">Telefono: </label>
+            <input name="telef" type="text" id="telefono" required>
+            <br>
+            <br>
+            <label for="ocupacion">ocupacion: </label>
+            <input name="ocup" type="text" id="ocupacion" required>
+            <br><br>
+            <label for="matricula">Matricula Profesional: </label>
+            <input name="matric" type="text" required>
+            <br><br>
+            <label for="laboral">Domicilio Laboral: </label>
+            <input name="labo" type="text" id="laboral" required>
+            <br><br>
+            <label for="titulo1">Titulo 1: </label>
+            <input name="titul1" type="text" id="titulo1" required>
+            <br><br>
+            <label for="titulo2">Titulo 2: </label>
+            <input name="titul2" type="text" id="titulo2">
+            <br><br>
+            <label for="comen">Comentario: </label>
+            <textarea name="comentario" id="comen" cols="30" rows="10"></textarea>
+            </div>
+            <div class="contenido-form-btn">
+              <input type="submit" value="Enviar" class="btn-enviar">
+            </div>
+        </form>
+    </section>
+   </main>
+   <div class="separador">
+    <h2> Podria interesarte </h2>
+   </div>
+   <aside>
+        <div class="contenido-aside">
+          <a href="https://noticias.unsam.edu.ar/2023/06/22/que-esta-pasando-en-jujuy-reforma-constitucional-y-protesta-en-las-calles/" target="_blank">
+            <img src="images/aside1.jpg" alt="noticiaextra1">
+            <h4>¿QUE ESTA PASANDO EN JUJUY?</h4>
+          </a>
+        </div>
+      <div class="contenido-aside">
+        <a href="https://www.jujuydice.com.ar/noticias/jujuy-3/alerta-amarilla-en-jujuy-por-tormentas-54214" target="_blank">
+          <img src="images/aside2.jpeg" alt="noticiaextra2">
+          <h4> ALERTA: TORMENTAS EN JUJUY</h4>
+        </a>
+      </div>
+      <div class="contenido-aside">
+        <a href="https://unjuradio.com/2023/04/10/se-registro-la-segunda-muerte-por-dengue-en-jujuy/" target="_blank">
+          <img src="images/aside3.jpg" alt="noticiaextra3">
+          <h4> PROBLEMAS EN JUJUY</h4>
+        </a>
+      </div>
+   </aside>
+   <footer>
+    <div>
+      <h3>Informacion de contacto</h2>
+          <p><b>Ubicacion:</b>Jujuy, Argentina</p>
+          <p><b>Telefono:</b> 0388-4231888</p>
+          <address> <b>Correo:</b> prensa@justiciajujuy.gov.ar</address>
+    </div>
+    <div>
+      <h3>Enlaces de interes</h3>
+       <a href="#">Poderes Judiciales</a>
+       <br>
+       <a href="#">Provincia de jujuy</a>
+       <br>
+       <a href="#">Nacionales</a>
+       <br>
+       <a href="#">Internacionales</a>
+       <br>
+       <a href="#"> Mapa de sitio</a>
+    </div>
+    <div>
+      <h3>Estadistica de visitas</h3>
+      <ul>
+          <li>Usuarios online: 3</li>
+          <li>Visitas hoy: 564</li>
+          <li>Visitantes hoy: 224</li>
+          <li>Visitas de ayer: 1.056</li>
+          <li>Visitas los últimos 7 días: 16.739</li>
+          <li>Visitas los últimos 30 días: 92.306</li>
+          <li>Visitas los últimos 365 días: 1.029.470</li>
+          <li>Total de visitas: 2.737.738</li>
+      </ul>
+    </div>
+    <div>
+      <h3>Gracias por Visitarnos</h3>
+      <img class="bandera"src="images/Bandera_de_la_Provincia_de_Jujuy.svg" alt="bandera de jujuy">
+      <p>Departamento de Sistemas y Tecnologías de la Información.</p>
+    </div>
+ </footer>
+</body>
+</html>
